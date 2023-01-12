@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: row;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.my-section {
+  background-image: url(/assets/header-shapes\ mobile@2x.svg);
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #f7f7f7;
+  padding-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.intro {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.about-me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.connect {
+  display: flex;
+  color: blue;
+  font-size: medium;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 50px;
+}
+
+.contact-btn:hover {
+  transform: scale(1.5);
+  border-radius: 5%;
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
