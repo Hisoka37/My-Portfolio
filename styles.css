@@ -1,7 +1,11 @@
-@media only screen and (max-width: 600px) {
-  .navbar {
-    flex-direction: row;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -11,12 +15,6 @@ header {
   padding-top: 20px;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
 }
 
 .my-section {
@@ -49,15 +47,12 @@ body {
 .intro {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 51px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
 }
 
 .about-me {
@@ -74,10 +69,10 @@ body {
 
 .connect {
   display: flex;
-  color: blue;
-  font-size: medium;
-  font-weight: bold;
-  padding-left: 10%;
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 3%;
@@ -86,8 +81,9 @@ body {
 .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding-right: 50px;
+  gap: 20px;
+  padding-bottom: 115px;
+  padding-left: 6%;
 }
 
 .contact-btn:hover {
@@ -98,4 +94,240 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background: #e5e5e5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.grid-container {
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  height: 600px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.card-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.my-project {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 295px;
+  height: 80px;
+}
+
+.experience {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.experience .tag,
+.tag1 {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.experience .tag1 {
+  color: #344563;
+}
+
+.experience .tag {
+  color: #7a869a;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+.descreption p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.languages ul {
+  display: flex;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.languages ul li {
+  font-weight: 500;
+  font-size: 12px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.see-project {
+  padding: 16px;
+  gap: 12px;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  width: 150px;
+  cursor: pointer;
+}
+
+.last-section {
+  background-image: url(/assets/Base\ about\ my\ self.png);
+  background-size: cover;
+}
+
+.my-social-link .buttons {
+  padding-bottom: 10px;
+}
+
+.get-my-resume {
+  padding-left: 5%;
+}
+
+.vector {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 9%;
+  margin-top: -1%;
+}
+
+.vector ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.vec1 ul {
+  gap: 150px;
+}
+
+.vec2 ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  gap: 120px;
+  position: relative;
+  top: -41px;
+}
+
+.vec3 ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  gap: 190px;
+  position: relative;
+  top: -70px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
+.email-me {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/assets/low-shapes\ mobile.svg), url(/assets/Contact\ me.svg);
+  background-size: cover;
+}
+
+.lg-icons {
+  margin: 5px 10px 5px 6px;
+}
+
+.black-line {
+  border: none;
+  border-bottom: 1px solid #dfe1e6;
+  width: 70%;
+  position: relative;
+  top: -67px;
+}
+
+.mastring-languages ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mastring-languages ul li {
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  position: relative;
+  top: -29px;
+}
+
+.ms-language {
+  display: flex;
+  align-items: center;
+}
+
+.Get-my-resume {
+  padding: 16px;
+  gap: 12px;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  width: 150px;
+  cursor: pointer;
+}
+
+.get-my-resume .resume {
+  width: 200px;
+}
+
+.vec2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 9%;
+  margin-top: -5%;
+}
+
+.aboutme-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.black-line-div {
+  position: relative;
+  top: -33px;
 }
