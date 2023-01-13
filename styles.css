@@ -72,7 +72,7 @@ header {
   color: #7f8cff;
   font-size: 16px;
   font-weight: 500;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 3%;
@@ -83,6 +83,7 @@ header {
   flex-direction: row;
   gap: 20px;
   padding-bottom: 115px;
+  padding-left: 6%;
 }
 
 .contact-btn:hover {
@@ -213,7 +214,7 @@ ul {
 }
 
 .get-my-resume {
-  padding-left: 35px;
+  padding-left: 5%;
 }
 
 .vector {
@@ -221,7 +222,7 @@ ul {
   justify-content: space-between;
   padding-right: 5%;
   padding-left: 9%;
-  margin-top: 5%;
+  margin-top: -1%;
 }
 
 .vector ul {
@@ -231,15 +232,25 @@ ul {
 }
 
 .vec1 ul {
-  gap: 167px;
+  gap: 150px;
 }
 
 .vec2 ul {
-  gap: 140px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  gap: 120px;
+  position: relative;
+  top: -41px;
 }
 
 .vec3 ul {
-  gap: 213px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  gap: 190px;
+  position: relative;
+  top: -70px;
 }
 
 h4 {
@@ -263,12 +274,14 @@ h4 {
   border: none;
   border-bottom: 1px solid #dfe1e6;
   width: 70%;
+  position: relative;
+  top: -67px;
 }
 
 .mastring-languages ul {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .mastring-languages ul li {
@@ -276,6 +289,8 @@ h4 {
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
+  position: relative;
+  top: -29px;
 }
 
 .ms-language {
@@ -297,4 +312,22 @@ h4 {
 
 .get-my-resume .resume {
   width: 200px;
+}
+
+.vec2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 9%;
+  margin-top: -5%;
+}
+
+.aboutme-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.black-line-div {
+  position: relative;
+  top: -33px;
 }
