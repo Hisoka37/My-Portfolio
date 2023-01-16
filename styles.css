@@ -203,6 +203,8 @@ ul {
   font-weight: 500;
   width: 150px;
   cursor: pointer;
+  position : relative;
+  top: 10%;
 }
 
 .last-section {
