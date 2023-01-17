@@ -18,7 +18,7 @@ header {
 }
 
 .my-section {
-  background-image: url(/assets/header-shapes\ mobile@2x.svg);
+  background-image: url(./assets/header-shapes\ mobile@2x.svg);
   background-size: cover;
 }
 
@@ -380,7 +380,7 @@ h4 {
   align-items: center;
   border-top-left-radius: 50px;
   background: #6070ff;
-  background-image: url("/assets/contact\ form\ shapes-mobile.svg");
+  background-image: url("./assets/contact\ form\ shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
 
