@@ -76,6 +76,7 @@ header {
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 3%;
+  text-transform: uppercase;
 }
 
 .buttons {
@@ -184,7 +185,6 @@ ul {
 }
 
 .languages ul li {
-  
   font-weight: 500;
   font-size: 12px;
   color: #6070ff;
@@ -260,8 +260,6 @@ h4 {
   color: #000;
 }
 
-
-
 .lg-icons {
   margin: 5px 10px 5px 6px;
 }
@@ -329,7 +327,7 @@ h4 {
 }
 
 .text {
-  width: 327px;
+  width: 300px;
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -342,11 +340,11 @@ h4 {
 }
 
 .form {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .message {
-  width: 327px;
+  width: 300px;
   height: 170px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -358,7 +356,7 @@ h4 {
   padding-left: 16px;
 }
 
-.touch {
+.touch-button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -370,9 +368,12 @@ h4 {
   font-size: 17px;
   color: #396df2;
   margin: 26px 27px;
+  position: relative;
+  top: -26px;
+  right: 5px;
 }
 
-.contact {
+.contactus {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -382,11 +383,11 @@ h4 {
   background-image: url("/assets/contact\ form\ shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
-  position: absolute;
+
+  /* position: absolute;
   left: 0;
   right: 0;
-  margin-top: 114px;
-
+  margin-top: 114px; */
 }
 
 .contact1 {
@@ -394,7 +395,6 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("./contactbg.png");
   margin-bottom: 44px;
 }
 
@@ -421,4 +421,9 @@ h4 {
   color: #ebebff;
   margin-left: 24px;
   margin-right: 24px;
+}
+
+.under-line {
+  position: relative;
+  left: 30%;
 }
