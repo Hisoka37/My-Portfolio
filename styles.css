@@ -171,7 +171,7 @@ ul {
 
 .project-name {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   color: #172b4d;
 }
 
@@ -201,7 +201,7 @@ ul {
   padding: 16px;
   gap: 12px;
   border: 1px solid #396df2;
-  border-radius: 16px;
+  border-radius: 8px;
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
@@ -345,13 +345,13 @@ h4 {
 }
 
 .form {
-  margin-top: 60px;
+  margin-top: 17px;
 }
 
 .message {
   width: 300px;
   height: 170px;
-  border: 1px solid #cfd8dc;
+  border: 2px solid #cfd8dc;
   border-radius: 8px;
   margin-left: 24px;
 }
@@ -375,7 +375,7 @@ h4 {
   margin: 26px 27px;
   position: relative;
   top: -26px;
-  right: 5px;
+  right: -82px;
   cursor: pointer;
 }
 
@@ -390,10 +390,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: right;
 
-  /* position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: 114px; */
+  
 }
 
 .contact1 {
@@ -417,7 +414,7 @@ h4 {
 }
 
 .graph {
-  width: 327px;
+  width: 569px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -431,7 +428,8 @@ h4 {
 
 .under-line {
   position: relative;
-  left: 30%;
+  left: 32%;
+  top: -25px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -449,7 +447,7 @@ h4 {
     justify-content: space-evenly;
     gap: 46px;
     padding-right: 43px;
-    color: #ff195e;
+    
   }
 
   .desktop-menu-bar a {
@@ -457,6 +455,7 @@ h4 {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    text-decoration: none;
   }
 
   .intro {
@@ -517,12 +516,10 @@ h4 {
   .card-img {
     width: 54%;
     display: flex;
-
-    /* justify-content: center; */
   }
 
   .descreption p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .desktop-card {
@@ -540,8 +537,8 @@ h4 {
     width: 920px;
     padding-left: 430px;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     padding-top: -10px;
   }
 
@@ -569,6 +566,12 @@ h4 {
     position: relative;
     right: 471px;
   }
+   .hover-button {
+    background: #4053FC;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #FFFFFF;
+   }
 
   .mastring-languages ul {
     display: flex;
