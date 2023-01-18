@@ -389,8 +389,6 @@ h4 {
   background-image: url("./assets/contact\ form\ shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
-
-  
 }
 
 .contact1 {
@@ -435,11 +433,11 @@ h4 {
 @media only screen and (min-width: 768px) {
   body {
     display: contents;
-  }
+}
 
-  .menu {
+.menu {
     display: none;
-  }
+}
 
   .navbar .desktop-menu-bar {
     display: flex;
@@ -447,7 +445,6 @@ h4 {
     justify-content: space-evenly;
     gap: 46px;
     padding-right: 43px;
-    
   }
 
   .desktop-menu-bar a {
@@ -566,12 +563,13 @@ h4 {
     position: relative;
     right: 471px;
   }
-   .hover-button {
-    background: #4053FC;
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+
+  .hover-button {
+    background: #4053fc;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
-    color: #FFFFFF;
-   }
+    color: #fff;
+  }
 
   .mastring-languages ul {
     display: flex;
