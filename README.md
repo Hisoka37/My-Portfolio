@@ -108,7 +108,7 @@ If you like this project give it a ⭐️
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Microverse for their great templates
+I would like to thank Microverse for their great templates and efforts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

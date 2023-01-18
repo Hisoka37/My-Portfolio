@@ -28,6 +28,10 @@ header {
   align-items: center;
 }
 
+.desktop-menu-bar {
+  display: none;
+}
+
 .menu {
   width: 25px;
   display: flex;
@@ -167,7 +171,7 @@ ul {
 
 .project-name {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   color: #172b4d;
 }
 
@@ -197,7 +201,7 @@ ul {
   padding: 16px;
   gap: 12px;
   border: 1px solid #396df2;
-  border-radius: 16px;
+  border-radius: 8px;
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
@@ -281,7 +285,8 @@ h4 {
 .mastring-languages ul li {
   width: 303px;
   height: 66.72px;
-  background: #f7f7f9;
+
+  /* background: #f7f7f9; */
   border-radius: 8px;
   position: relative;
   top: -29px;
@@ -340,13 +345,13 @@ h4 {
 }
 
 .form {
-  margin-top: 60px;
+  margin-top: 17px;
 }
 
 .message {
   width: 300px;
   height: 170px;
-  border: 1px solid #cfd8dc;
+  border: 2px solid #cfd8dc;
   border-radius: 8px;
   margin-left: 24px;
 }
@@ -370,7 +375,8 @@ h4 {
   margin: 26px 27px;
   position: relative;
   top: -26px;
-  right: 5px;
+  right: -82px;
+  cursor: pointer;
 }
 
 .contactus {
@@ -383,11 +389,6 @@ h4 {
   background-image: url("./assets/contact\ form\ shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
-
-  /* position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: 114px; */
 }
 
 .contact1 {
@@ -411,7 +412,7 @@ h4 {
 }
 
 .graph {
-  width: 327px;
+  width: 569px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -425,5 +426,204 @@ h4 {
 
 .under-line {
   position: relative;
-  left: 30%;
+  left: 32%;
+  top: -25px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: contents;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar .desktop-menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 46px;
+    padding-right: 43px;
+  }
+
+  .desktop-menu-bar a {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .intro {
+    width: 337px;
+    height: 150px;
+    padding-top: 51px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    letter-spacing: 0.37px;
+    padding-left: 150px;
+  }
+
+  .about-me {
+    width: 920px;
+    padding-left: 150px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: -10px;
+    position: relative;
+    top: -40px;
+  }
+
+  .connect {
+    padding-left: 150px;
+    padding-top: 10px;
+    position: relative;
+    top: -50px;
+  }
+
+  .buttons {
+    padding-left: 150px;
+    position: relative;
+    top: -90px;
+  }
+
+  .first-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    height: 407px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    width: 1000px;
+  }
+
+  .my-project {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 80px;
+    width: 372px;
+  }
+
+  .card-img {
+    width: 54%;
+    display: flex;
+  }
+
+  .descreption p {
+    font-size: 16px;
+  }
+
+  .desktop-card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .desktop-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  .about-me-desktop {
+    width: 920px;
+    padding-left: 430px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: -10px;
+  }
+
+  .intro-desktop {
+    padding-left: 430px;
+  }
+
+  .desktop-social-link {
+    padding-left: 280px;
+  }
+
+  .get-my-resume {
+    position: relative;
+    padding-left: 430px;
+    top: -90px;
+  }
+
+  .connect-desktop {
+    padding-left: 430px;
+    padding-top: 10px;
+    position: relative;
+  }
+
+  .aboutme-section-desktop {
+    position: relative;
+    right: 471px;
+  }
+
+  .hover-button {
+    background: #4053fc;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .mastring-languages ul {
+    display: flex;
+    flex-direction: row;
+    gap: 58px;
+    width: 155px;
+    height: 85.72px;
+    border-radius: 8px;
+    position: relative;
+    top: -10px;
+    right: -24px;
+
+    /* right: px; */
+  }
+
+  .ms-language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vector {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 9%;
+    margin-top: -1%;
+  }
+
+  .vector ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .vec1 ul {
+    gap: 400px;
+  }
+
+  .vec2 ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    gap: 370px;
+    position: relative;
+    top: -41px;
+  }
+
+  .vec3 ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    gap: 445px;
+    position: relative;
+    top: -70px;
+  }
 }
