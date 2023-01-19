@@ -53,7 +53,7 @@
  
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://github.com/Hisoka37/Mobile-Portfolio)
+- [Live Demo Link](https://github.com/Hisoka37/Mobile-Portfolio.git)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
