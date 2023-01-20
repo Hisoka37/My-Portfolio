@@ -46,10 +46,7 @@ header {
   align-items: center;
   text-align: center;
   padding-top: 10px;
-  
 }
-
-
 
 .intro {
   width: 327px;
@@ -441,8 +438,6 @@ h4 {
   .menu {
     display: none;
   }
-
-  
 
   .navbar .desktop-menu-bar {
     display: flex;
