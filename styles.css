@@ -3,8 +3,6 @@
 body {
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -20,6 +18,8 @@ header {
 .my-section {
   background-image: url(./assets/header-shapes\ mobile@2x.svg);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
@@ -49,7 +49,7 @@ header {
 }
 
 .intro {
-  width: 327px;
+  width: 275px;
   height: 150px;
   padding-left: 5%;
   padding-right: 5%;
@@ -69,6 +69,7 @@ header {
   display: flex;
   padding-left: 5%;
   padding-right: 5%;
+  width: 327px;
 }
 
 .connect {
@@ -81,6 +82,7 @@ header {
   padding-top: 5%;
   padding-bottom: 3%;
   text-transform: uppercase;
+  width: 150px;
 }
 
 .buttons {
@@ -89,6 +91,7 @@ header {
   gap: 20px;
   padding-bottom: 115px;
   padding-left: 6%;
+  width: 200px;
 }
 
 .contact-btn:hover {
@@ -126,6 +129,10 @@ ul {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+}
+
+.desktop-card {
+  height: 682px;
 }
 
 .card-img {
@@ -387,8 +394,10 @@ h4 {
   border-top-left-radius: 50px;
   background: #6070ff;
   background-image: url("./assets/contact\ form\ shapes-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: right;
+
+  /* background-repeat: no-repeat;
+  background-position: right; */
+  background-size: cover;
 }
 
 .contact1 {
@@ -412,7 +421,7 @@ h4 {
 }
 
 .graph {
-  width: 569px;
+  width: 350px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -420,8 +429,6 @@ h4 {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .under-line {
@@ -625,5 +632,18 @@ h4 {
     gap: 445px;
     position: relative;
     top: -70px;
+  }
+
+  .graph {
+    width: 569px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
