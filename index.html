@@ -16,16 +16,24 @@
         <img src="./assets/My Logo.svg" class="logo" /></a>
       <nav class="navbar">
         <img class="menu" src="./assets/Side.svg" alt="menu" />
-
-        <ul class="desktop-menu-bar">
+       
+        <ul class="desktop-menu-bar ">
           <li class="nav"><a href="#Portfolio">Portfolio</a></li>
           <li class="nav"><a href="#aboutme">About</a></li>
           <li class="nav"><a href="#contact-me">Contact</a></li>
         </ul>
-
+  </div>
       </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#card">Portfolio</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <div class="closeMenu"><i><img src="./assets/closemenuicon.png" alt="cross icone"></i></div>
+        </ul>
+    </div>
     </header>
-    <section class="my-section">
+    <section class="my-section" >
       <div>
         <h1 class="intro">I'm Walid <br />Glad to see You!</h1>
       </div>
@@ -52,7 +60,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="card">
       <div class="grid-container">
         <div class="first-card">
           <img class="card-img" src="./assets/First Snapshoot Portfolio.svg" alt="Tonic">
@@ -191,7 +199,7 @@
       </div>
     </section>
     <section class="desktop-section">
-    <section class="last-section ">
+    <section class="last-section " id="aboutme" >
       <div>
         <h1 class="intro intro-desktop">About <br />Myself</h1>
       </div>
@@ -275,7 +283,7 @@
 
     </section>
 
-    <section class="contactus">
+    <section class="contactus" id="contact-me">
       <div class="contact1">
         <h2 class="heading">Contact me</h2>
         <p class="graph">If you have an application you are interested in developing, a feature that you need built or
@@ -303,7 +311,7 @@
 
 
   </section>
-
+<script src="index.js"></script>
 </body>
 
 </html>
