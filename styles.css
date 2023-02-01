@@ -63,6 +63,11 @@ ul .mobile-menu {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 .closeMenu {
   position: absolute;
   top: 3rem;
@@ -216,15 +221,17 @@ ul {
 }
 
 .bullet {
-  width: 10px;
-  height: 10px;
-  background: #ccc;
-  border-radius: 50%;
+  /* width: 10px;
+  height: 10px; */
+  font-size: 30px !important;
+  color: #7a869a;
+  text-align: center;
 }
+
 
 .project-name {
   font-weight: 700;
-  font-size: 40px;
+  /* font-size: 40px; */
   color: #172b4d;
 }
 
@@ -248,6 +255,19 @@ ul {
   background: #ebebff;
   border-radius: 10px;
   padding: 6px;
+}
+
+
+
+.language {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dfe1e6;
+  height: 15px;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 2px 6px;
+  align-items: center;
 }
 
 .see-project {
@@ -483,6 +503,27 @@ h4 {
   top: -25px;
 }
 
+/* Modal popup styling  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 768px) {
   body {
     display: contents;
@@ -638,6 +679,8 @@ h4 {
     /* right: px; */
   }
 
+  
+
   .ms-language {
     display: flex;
     flex-direction: column;
@@ -693,7 +736,35 @@ h4 {
     margin-right: 24px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .mobile-menu {
     display: none;
   }
+  
+  .coremodal {
+    margin: 9%;
+    padding: 2%;
+  }
+
+  .modalbody {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modaldescreption {
+    width: 55%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .modalpopup {
+    padding: 0 0;
+  }
+
+
 }
