@@ -1,7 +1,3 @@
-/* eslint-disable no-plusplus */
-/* eslint-disable no-unused-vars */
-/* eslint-disable func-names */
-/* eslint-disable semi */
 const projectsWindow = [
   {
     mdltitle: 'Tonic',
@@ -64,7 +60,8 @@ const popUpYear = document.querySelector('#year');
 
 cards.innerHTML = '';
 
-for (let i = 0; i < projectsWindow.length; i++) {
+// eslint-disable-next-line no-plusplus
+for (let i = 0; i < projectsWindow.length; ++i) {
   let techLanguages = '';
   projectsWindow[i].languages.forEach((projTech) => {
     techLanguages += `<li class="language">${projTech}</li>`;
@@ -104,16 +101,15 @@ for (let i = 0; i < projectsWindow.length; i++) {
 }
 
 // eslint-disable-next-line no-plusplus
-for (let i = 0; projectsWindow.length; i++) {
-  // eslint-disable-next-line no-loop-func, prefer-arrow-callback
-  document.querySelector(`#seeproject-${i}`).addEventListener('click', function () {
-    let modalTechnology = ''
+for (let i = 0; projectsWindow.length; ++i) {
+  document.querySelector(`#seeproject-${i}`).addEventListener('click', () => {
+    let modalTechnology = '';
 
     projectsWindow[i].languages.forEach((languagess) => {
       modalTechnology += `
             <li class="language">${languagess}</li>
-          `
-    })
+          `;
+    });
 
     popUpTitle.innerHTML = projectsWindow[i].mdltitle;
     popUpPhoto.src = projectsWindow[i].imageLink;
@@ -127,10 +123,12 @@ for (let i = 0; projectsWindow.length; i++) {
     modalpopup.style.display = 'block';
     document.querySelector('main').style.filter = ' blur(5px)';
     document.querySelector('header').style.filter = ' blur(5px)';
-  })
+  });
 }
 
-// Close Modal
+// Close Modal FOR THE POP WINDOWS
+
+// eslint-disable-next-line no-unused-vars
 function CloseModal() {
   modalpopup.style.display = 'none';
   document.querySelector('main').style.filter = ' blur(0)';
