@@ -63,11 +63,6 @@ ul .mobile-menu {
   font-family: "Inter", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-
 .closeMenu {
   position: absolute;
   top: 3rem;
@@ -228,9 +223,9 @@ ul {
   text-align: center;
 }
 
-
 .project-name {
   font-weight: 700;
+
   /* font-size: 40px; */
   color: #172b4d;
 }
@@ -256,8 +251,6 @@ ul {
   border-radius: 10px;
   padding: 6px;
 }
-
-
 
 .language {
   display: flex;
@@ -505,7 +498,7 @@ h4 {
 
 /* Modal popup styling  */
 .modalpopup {
-  height:100%;
+  height: 100%;
   width: 100%;
   overflow-y: scroll;
   display: none;
@@ -518,11 +511,10 @@ h4 {
 .coremodal {
   display: flex;
   flex-direction: column;
-  gap: 1px;
-  margin:  16%;
+  gap: 20px;
+  margin: 16%;
   background: white;
   padding: 5%;
-  
 }
 
 .modalheader {
@@ -536,17 +528,19 @@ h4 {
   height: 20px;
   filter: invert(100%);
 }
- .modalcontent {
+
+.modalcontent {
   display: flex;
   align-items: center;
- }
+}
 
- .modalcontent li {
+.modalcontent li {
   list-style: none;
   font-size: 13px;
- }
+}
 
- #role,#year {
+#role,
+#year {
   color: #7a869a;
 }
 
@@ -565,7 +559,7 @@ h4 {
 .modaltech {
   display: flex;
   gap: 20px;
-  padding-left: 5px
+  padding-left: 5px;
 }
 
 .modaltech a {
@@ -575,8 +569,6 @@ h4 {
   font-weight: 500;
   font-size: 12px;
 }
-
-
 
 .modalpicture {
   width: 100%;
@@ -654,24 +646,6 @@ h4 {
   font-size: 15px;
   color: #344563;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 768px) {
   body {
@@ -828,8 +802,6 @@ h4 {
     /* right: px; */
   }
 
-  
-
   .ms-language {
     display: flex;
     flex-direction: column;
@@ -885,16 +857,12 @@ h4 {
     margin-right: 24px;
   }
 
-  a {
-    text-decoration: none;
-  }
-
   .mobile-menu {
     display: none;
   }
-  
+
   .coremodal {
-    margin: 9%;
+    margin: 8%;
     padding: 2%;
   }
 
@@ -910,10 +878,4 @@ h4 {
     line-height: 30px;
     color: #344563;
   }
-
-  .modalpopup {
-    padding: 0 0;
-  }
-
-
 }
