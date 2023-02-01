@@ -5,7 +5,7 @@ const projectsWindow = [
     imageLink: './assets/First Snapshoot Portfolio.svg',
     languages: ['html', 'css', 'javascript'],
     role: 'Back end dev',
-    company: 'canopy',
+    company: 'CANOPY',
     year: '2015',
     sourceLink: 'https://github.com/Hisoka37/Mobile-Portfolio',
     demoLink: 'https://github.com/Hisoka37/Mobile-Portfolio',
@@ -16,7 +16,7 @@ const projectsWindow = [
     imageLink: './assets/secod Snapshoot Portfolio.svg',
     languages: ['html', 'css', 'javascript'],
     role: 'Full Stack Dev',
-    company: 'Facebook',
+    company: 'FACEBOOK',
     year: '2015',
     sourceLink: 'https://github.com/Hisoka37/Mobile-Portfolio',
     demoLink: 'https://github.com/Hisoka37/Mobile-Portfolio',
@@ -38,7 +38,7 @@ const projectsWindow = [
     imageLink: '/assets/last Snapshoot Portfolio.svg',
     languages: ['html', 'css', 'javascript'],
     role: 'Lead developer',
-    company: 'Uber',
+    company: 'UBER',
     year: '2018',
     sourceLink: 'https://github.com/Hisoka37/Mobile-Portfolio',
     demoLink: 'https://github.com/Hisoka37/Mobile-Portfolio',
@@ -59,9 +59,7 @@ const popUpRole = document.querySelector('#role');
 const popUpYear = document.querySelector('#year');
 
 cards.innerHTML = '';
-
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < projectsWindow.length; ++i) {
+for (let i = 0; i < projectsWindow.length; i += 1) {
   let techLanguages = '';
   projectsWindow[i].languages.forEach((projTech) => {
     techLanguages += `<li class="language">${projTech}</li>`;
@@ -100,8 +98,7 @@ for (let i = 0; i < projectsWindow.length; ++i) {
   `;
 }
 
-// eslint-disable-next-line no-plusplus
-for (let i = 0; projectsWindow.length; ++i) {
+for (let i = 0; projectsWindow.length; i += 1) {
   document.querySelector(`#seeproject-${i}`).addEventListener('click', () => {
     let modalTechnology = '';
 
@@ -128,9 +125,9 @@ for (let i = 0; projectsWindow.length; ++i) {
 
 // Close Modal FOR THE POP WINDOWS
 
-// eslint-disable-next-line no-unused-vars
 function CloseModal() {
   modalpopup.style.display = 'none';
   document.querySelector('main').style.filter = ' blur(0)';
   document.querySelector('header').style.filter = ' blur(0)';
 }
+CloseModal.addEventListener('click', CloseModal);
