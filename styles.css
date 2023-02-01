@@ -504,7 +504,156 @@ h4 {
 }
 
 /* Modal popup styling  */
+.modalpopup {
+  height:100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: none;
+  background-color: rgba(193, 199, 208, 0.7);
+  top: 0;
+  position: fixed;
+  padding: 5% 0;
+}
 
+.coremodal {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin:  16%;
+  background: white;
+  padding: 5%;
+  
+}
+
+.modalheader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalclosebtn {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+}
+ .modalcontent {
+  display: flex;
+  align-items: center;
+ }
+
+ .modalcontent li {
+  list-style: none;
+  font-size: 13px;
+ }
+
+ #role,#year {
+  color: #7a869a;
+}
+
+.modalcontent1 li {
+  list-style: none;
+  font-size: 12px;
+  color: #6070ff;
+}
+
+.worktech li {
+  list-style: none;
+  font-size: 12px;
+  color: #6070ff;
+}
+
+.modaltech {
+  display: flex;
+  gap: 20px;
+  padding-left: 5px
+}
+
+.modaltech a {
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+
+
+.modalpicture {
+  width: 100%;
+}
+
+.modalbody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contentandbutton {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modalbtns {
+  display: flex;
+}
+
+.modalbtns button {
+  font-size: 14px;
+  padding: 5px 12px;
+  margin-right: 10px;
+}
+
+.source img {
+  filter: invert(65%) sepia(27%) saturate(3000%) hue-rotate(220deg) brightness(100%) contrast(101%);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.button:active {
+  background-color: #2230d2;
+}
+
+.button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
+
+.modalbtns button img {
+  width: 14px;
+}
+
+.modalbtns button:hover img {
+  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(103deg) brightness(200%) contrast(100%);
+}
+
+.live,
+.source {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#company {
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
+}
 
 
 
