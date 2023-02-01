@@ -204,7 +204,7 @@ ul {
 .experience .tag,
 .tag1 {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .experience .tag1 {
@@ -216,8 +216,6 @@ ul {
 }
 
 .bullet {
-  /* width: 10px;
-  height: 10px; */
   font-size: 30px !important;
   color: #7a869a;
   text-align: center;
@@ -458,9 +456,6 @@ a {
   border-top-left-radius: 50px;
   background: #6070ff;
   background-image: url("./assets/contact\ form\ shapes-mobile.svg");
-
-  /* background-repeat: no-repeat;
-  background-position: right; */
   background-size: cover;
 }
 
@@ -541,7 +536,7 @@ a {
 
 .modalcontent li {
   list-style: none;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 #role,
