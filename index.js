@@ -18,3 +18,5 @@ menuItems.forEach((item) => {
 });
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
+
+// Form Validation

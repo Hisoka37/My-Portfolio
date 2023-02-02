@@ -289,21 +289,23 @@
         <p class="graph">If you have an application you are interested in developing, a feature that you need built or
           a project that
           needs coding. I'd love to help with it </p>
-        <form class="form" action="https://formspree.io/f/mvongkae" method="post">
+        <form class="form" id="form" action="https://formspree.io/f/mvongkae" method="post">
 
 
           <div>
-            <input class="text" type="text" name="myName" placeholder="Yeremias" maxlength="30" required>
+            <input class="text" id="username" type="text" name="myName" placeholder="Yeremias" maxlength="30" required>
+            <!-- <p id="msg1"></p> -->
           </div><br>
           <div>
-            <input class="text" type="email" name="myEmail" placeholder="natajayanj14@gmail.com" required>
-          </div><br>
+            <input class="text" id="email" type="email" name="myEmail" placeholder="natajayanj14@gmail.com" required>
+            </div><br>
+            <p id="error"></p>
           <div>
             <textarea class="message" name="myText" maxlength="500" cols="30" rows="10"
               placeholder="Write your message here" required></textarea>
           </div>
           <br>
-          <button type="submit" class="touch-button">Get in Touch</button>
+          <button type="submit" class="touch-button" id="submit-form" >Get in Touch</button>
           <img class="under-line" src="./assets/underline.svg.svg" alt="">
       </div>
       </form>
@@ -342,8 +344,10 @@
   </div>
 
 </div>
+
 <script src="app.js"></script>
 <script src="index.js"></script>
+<script src="form.js"></script>
 </body>
 
 </html>

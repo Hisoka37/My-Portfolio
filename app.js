@@ -131,3 +131,5 @@ function CloseModal() {
   document.querySelector('header').style.filter = ' blur(0)';
 }
 CloseModal.addEventListener('click', CloseModal);
+
+// Form Validation
