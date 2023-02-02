@@ -204,7 +204,7 @@ ul {
 .experience .tag,
 .tag1 {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .experience .tag1 {
@@ -216,15 +216,16 @@ ul {
 }
 
 .bullet {
-  width: 10px;
-  height: 10px;
-  background: #ccc;
-  border-radius: 50%;
+  font-size: 30px !important;
+  color: #7a869a;
+  text-align: center;
 }
 
 .project-name {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 25px;
+
+  /* font-size: 40px; */
   color: #172b4d;
 }
 
@@ -248,6 +249,17 @@ ul {
   background: #ebebff;
   border-radius: 10px;
   padding: 6px;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dfe1e6;
+  height: 15px;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 2px 6px;
+  align-items: center;
 }
 
 .see-project {
@@ -384,6 +396,10 @@ h4 {
   top: -33px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text {
   width: 300px;
   height: 48px;
@@ -440,9 +456,6 @@ h4 {
   border-top-left-radius: 50px;
   background: #6070ff;
   background-image: url("./assets/contact\ form\ shapes-mobile.svg");
-
-  /* background-repeat: no-repeat;
-  background-position: right; */
   background-size: cover;
 }
 
@@ -481,6 +494,172 @@ h4 {
   position: relative;
   left: 32%;
   top: -25px;
+}
+
+/* Modal popup styling  */
+.modalpopup {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: none;
+  background-color: rgba(193, 199, 208, 0.7);
+  top: 0;
+  position: fixed;
+  padding: 5% 0;
+}
+
+.coremodal {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 9%;
+  background: white;
+  padding: 2%;
+}
+
+.modalheader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalclosebtn {
+  width: 11px;
+  height: 11px;
+  filter: invert(100%);
+}
+
+.modalcontent {
+  display: flex;
+  align-items: center;
+}
+
+.modalcontent li {
+  list-style: none;
+  font-size: 16px;
+}
+
+#role,
+#year {
+  color: #7a869a;
+}
+
+.modalcontent1 li {
+  list-style: none;
+  font-size: 12px;
+  color: #6070ff;
+}
+
+.worktech li {
+  list-style: none;
+  font-size: 12px;
+  color: #6070ff;
+}
+
+.modaltitle {
+  color: #172b4d;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.modaldescreption {
+  padding: 0;
+  margin: 10px 0 15px 0;
+}
+
+.modaltech {
+  display: flex;
+  gap: 6px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  margin-bottom: 23px;
+  margin-top: 0;
+}
+
+.modaltech a {
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.modalpicture {
+  width: 100%;
+}
+
+.modalbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentandbutton {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modalbtns {
+  display: flex;
+  position: relative;
+  top: -20px;
+}
+
+.modalbtns button {
+  font-size: 14px;
+  padding: 5px 12px;
+  margin-right: 10px;
+}
+
+.source img {
+  filter: invert(65%) sepia(27%) saturate(3000%) hue-rotate(220deg) brightness(100%) contrast(101%);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.button:active {
+  background-color: #2230d2;
+}
+
+.button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
+
+.modalbtns button img {
+  width: 14px;
+}
+
+.modalbtns button:hover img {
+  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(103deg) brightness(200%) contrast(100%);
+}
+
+.live,
+.source {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#company {
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
 }
 
 @media only screen and (min-width: 768px) {
@@ -695,5 +874,27 @@ h4 {
 
   .mobile-menu {
     display: none;
+  }
+
+  .coremodal {
+    margin: 13%;
+    padding: 2%;
+  }
+
+  .modaltech {
+    margin-top: 20px;
+  }
+
+  .modalbody {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modaldescreption {
+    width: 55%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #344563;
   }
 }
