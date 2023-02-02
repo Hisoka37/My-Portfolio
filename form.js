@@ -11,7 +11,7 @@ function validate() {
       document.getElementById('error').style.visibility = 'visible';
       document.getElementById('error').style.color = '#f63778';
       document.getElementById('error').style.fontSize = '20px';
-      e.preventDefault();      
+      e.preventDefault();
     }
   };
 }
