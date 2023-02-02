@@ -7,7 +7,11 @@ function validate() {
     if (condition.test(useremail)) {
       document.getElementById('msg1').innerHTML = 'Valid';
     } else {
-      
+      document.getElementById('error').innerHTML = 'please enter you email in lower case';
+      document.getElementById('error').style.visibility = 'visible';
+      document.getElementById('error').style.color = '#f63778';
+      document.getElementById('error').style.fontSize = '20px';
+      e.preventDefault();      
     }
   };
 }
