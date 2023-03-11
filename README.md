@@ -1,10 +1,5 @@
-# Mobile-Portfolio
+# My-Portfolio
 <a name="readme-top"></a>
-
-
-
-  <h3><b>Microverse README Template</b></h3>
-
 
 
 
@@ -39,6 +34,7 @@
 
 **[HTM]**
 **[CSS]**
+**[Javascript]**
 
 
 ### Key Features <a name="key-features"></a>
@@ -108,7 +104,6 @@ If you like this project give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse for their great templates and efforts
 
