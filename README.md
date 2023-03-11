@@ -28,7 +28,7 @@
 
  
 
-**[Portfolio]** is My portfolio website
+ This is portfolio website I created to showcase my skills, experiences, and projects I developed. This portfolio website is built using JavaScript, and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
