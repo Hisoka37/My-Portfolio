@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio]<a name="about-project"></a>
 
  
 
@@ -32,9 +32,9 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-**[HTM]**
-**[CSS]**
-**[Javascript]**
+- **[HTM]**
+- **[CSS]**
+- **[Javascript]**
 
 
 ### Key Features <a name="key-features"></a>
