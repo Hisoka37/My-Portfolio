@@ -4,7 +4,7 @@ function validate() {
   const condition = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
 
   document.forms[0].onsubmit = function (e) {
-    if (condition.test(usremail)) {
+    if (condition.test(useremail)) {
       document.getElementById('msg1').innerHTML = 'Valid';
     } else {
       document.getElementById('error').innerHTML = 'please enter you email in lower case';
