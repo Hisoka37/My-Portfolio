@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio]<a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
  
 
@@ -32,16 +32,16 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- **[HTM]**
-- **[CSS]**
-- **[Javascript]**
+- **HTM**
+- **CSS**
+- **Javascript**
 
 
 ### Key Features <a name="key-features"></a>
 
 
-- **[Responsive Design]**
-- **[speed and SEO friendly ]**
+- **Responsive Design**
+- **Seo Friendly**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,8 +84,8 @@
 
  
 
-- [ ] **[use react to make it more responsive and well designed]**
-- [ ] **[Animations]**
+- [ ] **use react to make it more responsive and well designed**
+- [ ] **Animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,9 +93,7 @@
 
 
 ## ⭐️ Show your support <a name="support"></a>
-
  
-
 If you like this project give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
